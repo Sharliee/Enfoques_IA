@@ -1,9 +1,3 @@
-"""El método Monte Carlo se basa en la generación de muestras aleatorias para
-aproximar una solución numérica. Para ello, se utilizan técnicas de simulación
-que permiten generar muestras aleatorias de una distribución de probabilidad
-conocida o desconocida, y a partir de estas muestras se realizan cálculos
-estadísticos para obtener estimaciones de parámetros y soluciones de problemas."""
-
 import random
 
 # Definimos el número de puntos a generar
