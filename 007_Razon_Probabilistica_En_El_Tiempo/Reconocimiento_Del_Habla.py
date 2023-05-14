@@ -1,5 +1,3 @@
-
-
 import speech_recognition as sr
 
 # Inicializar el reconocedor de voz
