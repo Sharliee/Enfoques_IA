@@ -1,9 +1,3 @@
-# Implementación del algoritmo de Edmonds-Karp con acondicionamiento del corte
-# Este código es una tecnica que se utiliza para mejorar la eficiencia del algoritmo de Edmonds-Karp, que es el que tome de ejemplo
-
-
-# Función para encontrar el flujo máximo en un grafo utilizando el algoritmo de Edmonds-Karp con acondicionamiento del corte
-# Los parámetros de entrada son el grafo de capacidad (graph), el nodo de origen (source) y el nodo de destino (sink)
 def edmonds_karp_cut_conditioning(graph, source, sink):
     # Inicializar el flujo máximo en 0
     max_flow = 0
@@ -79,9 +73,6 @@ def get_path_flow(graph, path):
     
     return flow
 
-# Función para obtener el corte en el grafo a partir de un camino de aumento
-# Esta función utiliza el algoritmo de búsqueda en anchura (BFS) (busqueda de anchura) para encontrar un corte mínimo que 
-# separe el nodo de origen (source) del nodo de destino (sink). 
 def get_cut(graph, path):
     # Inicializar el corte como un conjunto vacío
     cut = set()
