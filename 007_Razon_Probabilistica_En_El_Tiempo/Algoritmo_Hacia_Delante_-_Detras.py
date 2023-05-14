@@ -1,20 +1,3 @@
-"""El algoritmo Forward-Backward es una técnica utilizada en la inferencia de modelos
-gráficos probabilísticos, como los modelos ocultos de Markov (HMM). El objetivo del
-algoritmo es calcular la distribución posterior de las variables ocultas en un modelo
-gráfico dado, dadas las observaciones observadas.
-
-El algoritmo se llama Forward-Backward porque consta de dos pasos principales:el paso
-Forward y el paso Backward. En el paso Forward, se calculan las probabilidades hacia
-adelante de las variables ocultas a medida que se avanza en el tiempo. En el paso
-Backward, se calculan las probabilidades hacia atrás de las variables ocultas a medida
-que se retrocede en el tiempo. Luego, se combinan estas probabilidades para calcular la
-distribución posterior de las variables ocultas dadas las observaciones.
-
-El algoritmo Forward-Backward es especialmente útil en la estimación de parámetros de
-modelos HMM y en la decodificación de secuencias ocultas. Además, el algoritmo también
-se puede utilizar en la estimación de la probabilidad de la secuencia de observación y
-en la imputación de valores faltantes en datos incompletos."""
-
 import numpy as np
 from hmmlearn import hmm
 
@@ -56,5 +39,3 @@ posterior = fwdlattice * bwdlattice / np.sum(fwdlattice * bwdlattice, axis=1, ke
 
 print("La distribución posterior es:")
 print(posterior)
-
-# Imprimir la distribución posterior
