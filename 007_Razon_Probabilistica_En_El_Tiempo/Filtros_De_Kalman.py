@@ -1,24 +1,3 @@
-"""
-El filtro de Kalman se utiliza en el campo de la inteligencia artificial (IA) para realizar la estimación 
-del estado de sistemas dinámicos que están siendo modelados mediante técnicas de aprendizaje automático.
-
-En el contexto de la IA, el filtro de Kalman se utiliza principalmente en dos áreas: 
-el seguimiento de objetos y el procesamiento de señales.
-
-En el seguimiento de objetos, el filtro de Kalman se utiliza para estimar la posición y velocidad de 
-objetos en movimiento a partir de medidas ruidosas. Por ejemplo, en la visión por computadora, el filtro 
-de Kalman se puede utilizar para estimar la posición y velocidad de un objeto en un video, a partir 
-de medidas de la posición del objeto en cada fotograma.
-
-En el procesamiento de señales, el filtro de Kalman se utiliza para realizar la estimación del estado
-de un sistema dinámico a partir de mediciones ruidosas. Por ejemplo, en el procesamiento de voz, 
-el filtro de Kalman se puede utilizar para estimar el estado oculto de un modelo oculto 
-de Markov (HMM, por sus siglas en inglés) que está siendo utilizado para el reconocimiento 
-de voz, a partir de las señales de voz que se reciben en tiempo real.
-
-En resumen, el filtro de Kalman es una herramienta útil en la IA para realizar la estimación del 
-estado de sistemas dinámicos que están siendo modelados mediante técnicas de aprendizaje automático. 
-"""
 import numpy as np
 import matplotlib.pyplot as plt
 from filterpy.kalman import KalmanFilter
