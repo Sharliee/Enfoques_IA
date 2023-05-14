@@ -1,18 +1,3 @@
-"""
-El encadenamiento hacia adelante es un método utilizado en sistemas expertos y
-la inteligencia artificial para inferir conclusiones a partir de hechos y reglas.
-
-En el encadenamiento hacia adelante, se comienzan con los hechos conocidos y
-se buscan reglas que puedan aplicarse a esos hechos para llegar a nuevas
-conclusiones. Se continúa aplicando estas reglas sucesivamente hasta que no
-se puedan inferir más hechos.
-
-Cada vez que se aplica una regla, se agregan nuevos hechos a una base de
-conocimientos. Estos nuevos hechos pueden ser utilizados para aplicar nuevas
-reglas y llegar a conclusiones adicionales. Este proceso continúa hasta que
-no hay más reglas que se puedan aplicar o se han llegado a todas las
-conclusiones posibles."""
-
 # Definir algunos hechos y reglas de ejemplo
 hechos = {
     "Paciente tiene fiebre": True,
@@ -56,23 +41,6 @@ enfermedades = encadenamiento_hacia_adelante(hechos, reglas)
 print("Resultado encadenamiento hacia adelante:")
 print(enfermedades)
 print("\n")
-
-"""El encadenamiento hacia atrás es otro método utilizado en sistemas expertos
-y la inteligencia artificial para inferir conclusiones a partir de hechos y reglas.
-
-A diferencia del encadenamiento hacia adelante, en el encadenamiento hacia
-atrás se comienza con una conclusión o objetivo y se busca hacia atrás a
-través de las reglas para encontrar los hechos necesarios para llegar a
-esa conclusión.
-
-El proceso de encadenamiento hacia atrás comienza con un objetivo y busca en
-las reglas para encontrar una regla que tenga esa conclusión como consecuencia.
-Si se encuentra una regla, se busca para verificar si los hechos necesarios
-para esa regla son verdaderos. Si los hechos necesarios para esa regla no son
-verdaderos, se realiza el mismo proceso para encontrar las reglas necesarias
-para demostrar los hechos necesarios. Este proceso se repite recursivamente
-hasta que se llega a un conjunto de hechos conocidos que se pueden utilizar
-para probar el objetivo original."""
 
 # Definir la base de conocimientos con los síntomas y las enfermedades asociadas
 base_de_conocimientos = {
