@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue May  9 15:03:14 2023
-
-@author: Alberto Aguiar
-"""
-
-
 from random import random
 
 # Definir una función para generar una muestra aleatoria
