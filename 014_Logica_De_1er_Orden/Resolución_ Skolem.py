@@ -49,9 +49,3 @@ def resolve(c1, c2):
 clauses = [[2,2],[-1,3],[-2,3],[-3]]
 valid = skolem(clauses)
 print(valid)
-
-"""
-La idea principal detrás de la resolución Skolem es transformar una fórmula o conjunto de fórmulas en una forma normal conjuntiva (CNF) y luego aplicar la regla de resolución 
-de cláusulas para obtener nuevas cláusulas que puedan simplificar la fórmula original. La introducción de constantes de Skolem permite eliminar los cuantificadores existenciales de la fórmula original, 
-lo que hace que sea más fácil de manejar y reducir el espacio de búsqueda necesario para demostrar su validez o invalidez.
-"""
