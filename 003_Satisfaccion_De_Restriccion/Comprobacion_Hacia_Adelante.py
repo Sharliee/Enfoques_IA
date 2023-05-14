@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Apr 26 21:00:00 2023
-
-@author: 6E1
-"""
-
 import numpy as np
 # Comprobación hacia adelante / forward checking
 # Matriz de adyacencia que representa el mapa
