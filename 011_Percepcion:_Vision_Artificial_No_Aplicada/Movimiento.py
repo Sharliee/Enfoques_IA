@@ -1,10 +1,3 @@
-"""
-El algoritmo de movimiento basado en la probabilidad es una técnica utilizada en inteligencia artificial y 
-robótica para permitir que un robot se mueva de manera autónoma en un entorno desconocido.
-En este algoritmo, el robot utiliza sensores para obtener información sobre su entorno y crea un 
-mapa del mismo. Luego, el robot utiliza este mapa para calcular la probabilidad de que se encuentre en una 
-ubicación específica y la probabilidad de que se mueva en una dirección determinada
-"""
 import random
 import matplotlib.pyplot as plt
 
@@ -68,7 +61,3 @@ def move():
 
 # Ejecutar el algoritmo de movimiento basado en la probabilidad
 move()
-""""
-Este programa crea un entorno bidimensional y un robot que se mueve en el mismo. En cada paso, 
-el robot calcula las probabilidades de movimiento en las direcciones disponibles y selecciona una
-dirección basada en esas probabilidades. El entorno se visualiza utilizando la biblioteca matplotlib.
