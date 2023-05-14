@@ -59,10 +59,3 @@ pf.run(controls, observations)
 #Se grafica todo el historial para ver como se fueron prediciendo las particulas
 plt.plot([x[0] for x in pf.history], [x[1] for x in pf.history])
 plt.show()
-
-"""
-El filtrado de partículas se utiliza comúnmente en robótica para localizar un robot en un entorno desconocido a partir de medidas de sensores ruidosos. 
-El algoritmo de filtrado de partículas funciona de la siguiente manera: se inicializa un conjunto de partículas, cada una representando una hipótesis sobre el estado latente del robot.
-En cada iteración, se predice la posición del robot utilizando un modelo de movimiento y se actualiza la distribución de probabilidad del estado latente utilizando un modelo de observación que compara las medidas de sensores con las hipótesis.
-Las partículas con pesos más bajos se eliminan y se reemplazan por nuevas partículas generadas a partir de las partículas con pesos más altos. El proceso se repite hasta que se alcanza una precisión suficiente.
-"""
