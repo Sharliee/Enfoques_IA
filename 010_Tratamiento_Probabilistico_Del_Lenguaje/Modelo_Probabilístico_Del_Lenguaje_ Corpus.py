@@ -20,10 +20,3 @@ def probability_of_sequence(sequence):
 
 print(probability_of_sequence(['the', 'people']))
 #Imprime las posibilidades de que estas dos palabras esten juntas
-
-"""
-Un modelo probabilístico del lenguaje es una técnica estadística utilizada para predecir la probabilidad de que cierta secuencia de palabras ocurra en un lenguaje natural.
-Un componente clave de este tipo de modelo es el corpus, que es un conjunto de datos lingüísticos que se utiliza para entrenar el modelo.
-
-Un corpus puede tomar muchas formas diferentes, pero en general, es una colección de textos escritos o hablados que se utilizan para estudiar cómo se usan las palabras en un lenguaje en particular.
-"""
