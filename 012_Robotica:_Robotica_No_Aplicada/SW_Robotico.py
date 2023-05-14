@@ -1,9 +1,3 @@
-"""
-Created on Sun May 7 2023
-
-@author: Adan Alvarez
-"""
-
 import pygame
 import math
 
@@ -56,4 +50,3 @@ while not done:
 
 # Cierre de Pygame
 pygame.quit()
-
