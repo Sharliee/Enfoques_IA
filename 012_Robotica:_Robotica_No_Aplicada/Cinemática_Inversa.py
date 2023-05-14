@@ -68,10 +68,3 @@ sigma = 0.1
 solutions = get_ik(x, y, z, p, sigma)
 for sol in solutions:
     print("theta1 = {:.3f}, theta2 = {:.3f}, theta3 = {:.3f}, probability = {:.3f}".format(sol[0], sol[1], sol[2], sol[3]))
-    
-"""
- La cinemática inversa robotica con probabilidad es un proceso que permite encontrar no sólo la solución
- más probable para los ángulos de las articulaciones necesarios para alcanzar una posición objetivo en el espacio de trabajo, 
- sino también las soluciones menos probables, teniendo en cuenta la incertidumbre en las mediciones y en los ángulos del robot.
- 
-"""
