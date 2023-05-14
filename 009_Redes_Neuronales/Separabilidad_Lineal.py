@@ -23,11 +23,3 @@ plt.contourf(xx, yy, Z, alpha=0.5)
 plt.scatter(X[:, 0], X[:, 1], c=y)
 plt.title("Frontera de decisión de la red neuronal")
 plt.show()
-"""
-Este código definirá una red neuronal con una capa oculta de cuatro neuronas y una capa de salida de una neurona 
-con función de activación sigmoide. Luego, entrenará la red neuronal en los datos generados aleatoriamente utilizando 
-el optimizador Adam y la función de pérdida de entropía cruzada binaria. Finalmente, se graficará la frontera de decisión 
-de la red neuronal, que separará las dos clases utilizando una línea recta.
-
-El resultado final será un gráfico con los datos aleatorios y la frontera de decisión de la red neuronal, que separa las 
-dos clases de manera lineal.
