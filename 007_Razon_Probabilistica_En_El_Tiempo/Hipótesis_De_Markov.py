@@ -30,9 +30,3 @@ plt.xlabel("Tiempo")
 plt.ylabel("Estado")
 plt.title("Proceso de lanzamiento de una moneda")
 plt.show()
-"""
-La hipótesis de Markov se utiliza ampliamente en la programación para modelar procesos que exhiben 
-cierta aleatoriedad, como el comportamiento de los usuarios en un sitio web, los precios de las acciones 
-en el mercado, o el comportamiento de los clientes en una tienda. Al modelar estos procesos como procesos de Markov,
-se pueden utilizar técnicas matemáticas y estadísticas para predecir con precisión los resultados futuros, 
-y así tomar decisiones informadas
