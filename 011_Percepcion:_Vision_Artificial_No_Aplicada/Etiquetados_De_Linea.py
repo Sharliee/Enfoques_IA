@@ -1,10 +1,3 @@
-
-#Etiquetados de linea
-
-#El etiquetado de línea, también conocido como etiquetado de secuencia o etiquetado de tokens
-#es una tarea en inteligencia artificial que implica asignar una etiqueta o categoría a cada 
-#token o elemento de una secuencia de texto, como palabras, caracteres o partes del habla
-
 "Para correr este programa necesitas la siguiente libreria: pip install nltk"
 
 import nltk
