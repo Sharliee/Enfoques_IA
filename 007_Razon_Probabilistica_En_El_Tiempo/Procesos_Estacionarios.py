@@ -1,12 +1,3 @@
-
-#Proceso Estacionario
-
-#Este proceso es un proceso aleatorio, en el cual las propiedades estadisticas se mantienen
-#constantes a lo largo del tiempo, por lo que las caracteristicas como la media, varianza y
-#covarianza no dependen del tiempo y son consientes a lo largo de las etapas del proceso
-
-"En este programa generare numeros aleatorios mediante este proceso"
-
 import random
 
 #Genera una secuencia de números aleatorios
