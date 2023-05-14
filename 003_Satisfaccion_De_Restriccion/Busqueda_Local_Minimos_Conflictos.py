@@ -31,29 +31,3 @@ def busqueda_local_min_conflictos(problema, max_iter=1000, max_pasos=100):
 
     # Si no se encontró solución, retornar False y una lista vacía
     return (False, [])
-
-"""
-La búsqueda local de mínimos conflictos consiste en encontrar
-las variables conflictivas en el estado actual, escoger una 
-variable conflictiva aleatoria y asignarle un valor que minimice 
-los conflictos. Este proceso se repite hasta que se llegue a
-un estado en el que no haya variables conflictivas o se 
-alcance el número máximo de pasos permitidos.
-
-La función retorna una tupla con un booleano que indica si 
-se encontró la solución y una lista con la secuencia de acciones
-que llevan a dicha solución.
-Realiza una búsqueda local de mínimos conflictos para resolver
-un problema.
-
-Args:
-problema: objeto de clase Problema que define el problema a resolver.
-max_iter: número máximo de iteraciones permitidas.
-max_pasos: número máximo de pasos permitidos en cada iteración.
-
-Returns:
-Una tupla que contiene un booleano y una lista:
-- Un booleano que indica si se encontró la solución.
-- Una lista con la secuencia de acciones que llevan a la solución 
-(si se encontró).
-"""
