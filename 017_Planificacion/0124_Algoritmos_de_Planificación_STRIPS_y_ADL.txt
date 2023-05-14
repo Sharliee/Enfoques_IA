@@ -1,6 +1,3 @@
-# Areli Sarai García Medina | 20310380
-# Algoritmo STRIPS
-
 # Definimos un diccionario con las tareas y sus precondiciones
 tareas = {
     'Hacer la cama': {'Cama desordenada': True},
