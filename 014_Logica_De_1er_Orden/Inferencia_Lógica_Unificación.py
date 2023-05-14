@@ -1,16 +1,3 @@
-"""La unificación es un proceso utilizado en programación para encontrar una
-sustitución que haga que dos términos o expresiones sean iguales. En términos
-simples, la unificación es la combinación de dos términos o expresiones en uno
-solo que contiene todos los elementos de ambos términos o expresiones.
-
-En la programación lógica, la unificación se utiliza para encontrar una
-solución para una consulta en la base de conocimientos.
-
-La unificación se realiza mediante la búsqueda de variables que se pueden
-enlazar para hacer que dos términos o expresiones sean iguales. Las variables
-pueden ser enlazadas a cualquier término o expresión, incluyendo constantes,
-variables o estructuras complejas."""
-
 def unify(var, x, env):
     # Si la variable ya está en el entorno, se unifica con su valor
     if var in env:
