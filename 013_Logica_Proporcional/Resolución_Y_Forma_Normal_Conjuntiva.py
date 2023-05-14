@@ -42,12 +42,3 @@ def fnc_conversion_demo():
 # Ejecutar el programa
 resolution_demo()
 fnc_conversion_demo()
-#En este programa, se utilizan las funciones y clases de SymPy para aplicar la regla de resolución y convertir una fórmula lógica a su forma normal conjuntiva (FNC).
-
-#La función resolution_demo() muestra un ejemplo de aplicación de la regla de resolución en un conjunto de cláusulas. 
-#Se construyen las cláusulas utilizando las operaciones lógicas Or (disyunción) y Not (negación).
-#Luego, se aplican las resoluciones sucesivas utilizando las cláusulas y se simplifica el resolvente final utilizando simplify.
-
-#La función fnc_conversion_demo() muestra un ejemplo de conversión de una fórmula a su forma normal conjuntiva utilizando la función to_cnf de SymPy.
-
-#Finalmente, se imprimen las cláusulas originales, el resolvente final y la fórmula original y la forma normal
