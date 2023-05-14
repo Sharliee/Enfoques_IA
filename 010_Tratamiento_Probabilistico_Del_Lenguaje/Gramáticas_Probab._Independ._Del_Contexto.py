@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue May  9 14:38:56 2023
-
-@author: Alberto Aguiar
-"""
-
 import nltk
 
 # Definir una gramática CFG
