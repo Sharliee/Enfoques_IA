@@ -1,9 +1,3 @@
-
-#Perceptrone Adaline y Madaline "ADALINE"
-
-#Practicamente son lo mismo, solo que el adeline es una red neuronal de 1 sola capa
-#y el madeline funciona con multiples capas
-
 import numpy as np
 
 class Adaline:
