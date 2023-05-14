@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri May 12 18:16:56 2023
-
-@author: 52331
-"""
-
 # Importamos la librería Pycosat, que es una implementación en Python del algoritmo de satisfacibilidad Booleana (SAT)
 import pycosat
 
