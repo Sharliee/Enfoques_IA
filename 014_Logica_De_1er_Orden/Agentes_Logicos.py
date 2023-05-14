@@ -1,5 +1,3 @@
-
-
 from pyDatalog import pyDatalog
 
 # Definir las reglas y hechos lógicos
