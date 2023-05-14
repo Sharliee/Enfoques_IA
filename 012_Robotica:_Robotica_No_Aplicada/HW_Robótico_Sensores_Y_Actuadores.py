@@ -1,5 +1,3 @@
-#Para el codigo se utiliza un sensor de presencia y un actuador lineal
-
 import RPi.GPIO as GPIO
 import time
 
