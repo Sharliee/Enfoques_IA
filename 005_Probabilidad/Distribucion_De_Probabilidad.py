@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue May  9 14:08:47 2023
-
-@author: Alberto Aguiar
-"""
-
 import numpy as np
 
 # Parámetros de la distribución normal
